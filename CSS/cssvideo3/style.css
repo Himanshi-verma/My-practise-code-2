@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+/* margin for spacing each side:
+#main
+{
+    width: 30%;
+    height: 50%;
+    margin: 20px;
+    background-color: aquamarine;
+} */
+
+/* margin for spacing 20px top & bottom 
+and 30px for left & right
+ #main{
+    width: 30%;
+    height: 50%;
+    margin: 20px 30px;
+    background-color: aquamarine;
+ } */
+
+margin for spacing clockwise direction top,right,bottom and left
+ #main{
+    width: 30%;
+    height: 50%;
+    margin: 20px 30px 40px 50px;
+    background-color: aquamarine;
+ }
