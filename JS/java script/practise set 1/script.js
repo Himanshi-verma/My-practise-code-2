@@ -1,4 +1,4 @@
-//variables Nand objects
+//variables and objects
 
 //1. create a variable of type string and try to add a number to it
 let a ="string";
