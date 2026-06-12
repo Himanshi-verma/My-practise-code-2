@@ -1,0 +1,5 @@
+runs = float(input("Enter total runs scored: "))
+innings = int(input("Enter total innings: "))
+not_out = int(input("Enter number of times not out: "))
+average = runs / (innings - not_out)
+print("Batting Average =", average)
