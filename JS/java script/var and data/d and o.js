@@ -17,8 +17,8 @@ obj.salary="200cr";
 obj.review_seen=true;
 console.log(obj);
 //for access them seperately
-// console.log(obj.name)
-// console.log(obj["sub code"])
+console.log(obj.name)
+console.log(obj["sub code"])
 //for add the data
 obj.name="harry potter"
 console.log(obj)
@@ -33,3 +33,15 @@ console.log(obj)
 
 // }
 // console.log(human);
+
+
+console.log(ab);//undefined not gives any erroe because we can print any variable before declaration.
+ var ab=12;
+
+ var bc=[1,2,3,4];
+ var ca=bc;
+ console.log(ca.pop());
+ console.log(ca);
+ console.log(bc);//it will not same as we declared bcz duee to pop operation on ca that also change the value of bc also
+
+ //without bracket all are primitive and with bracket all are refrence..

@@ -78,12 +78,14 @@ console.log("given number is :", check(14));
 console.log("given number is :", check(7));
 
 //print multiplication
-function multiply(num){
+function multiply(num){//where num is parameter.
+//parameter- variables jinme value store hoti h arguments wali.    
     for(let i=1;i<=10;i++){
     console.log(`${num}*${i}=${num*i}`);  
     }  
 }
-multiply(4);
+multiply(4);//where 4 is the arguments 
+//arguments- real valiue jo hum dete h function calate time
 
 //perimeter of rectangle
 function perimeter(l,b){
