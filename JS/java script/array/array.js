@@ -1,4 +1,7 @@
 let arr=[1,2,5,7];
+let arrcopy=[...arr];
+a=arrcopy.pop();
+console.log(a);
 console.log(arr);
 console.log(arr.length);
 

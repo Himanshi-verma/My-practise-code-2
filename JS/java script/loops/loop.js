@@ -17,6 +17,12 @@ for (const obj of "hello") {
     
 }
 
+//foreach
+var a=[1,2,3,4,5,6];
+a.forEach(function(val){
+    console.log(val+2);
+});
+
 //array
 const letter=["A", "B", "C" ];
 for (const element of letter) {

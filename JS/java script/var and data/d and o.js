@@ -11,7 +11,13 @@ let obj={
          name:"harris",
          "sub code": 4567
 }
-// console.log(obj);
+
+let objcopy={...obj};
+objcopy.name="preeti";
+console.log(objcopy);
+
+
+console.log(obj);
 obj.salary="200cr";
 // console.log(obj);
 obj.review_seen=true;
@@ -33,6 +39,7 @@ console.log(obj)
 
 // }
 // console.log(human);
+// delete human.Name;//for deleting the whole keyword
 
 
 console.log(ab);//undefined not gives any erroe because we can print any variable before declaration.
