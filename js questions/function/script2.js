@@ -11,13 +11,40 @@ function fresh(...val){
 }
 fresh(1,3,4,5,6,8,9);
 
-//use rest parameter to accept any nym of score and return the total
-let sum=0;
-function values(...num){
-    for(let i=0 ;i<=num;i++){ 
-      return sum+=num;
-    }  
+//function that returns sum of two num
+function sum(a,b){
+    return a+b;
 }
-    
-let result=values(1,2,3,4,5,6);
-console.log(result);
+console.log(sum(4,6));
+
+//make function which tell given number is even or odd
+function num(a){
+    if(a%2===0){ return "even number";}
+    else{
+        return "odd number";
+    }
+}
+console.log(num(41));
+
+//function banao jo string ko upper case me return kare
+function str(val){
+    return val.toUpperCase();
+}
+console.log(str("hello"))
+
+//function that return the length of the string
+function strr(len){
+    return len.length;
+}
+console.log(strr("hhhrrrrtttt"));
+
+//return 1 big num
+function num(a,b){
+    if(a>b){
+        return a;
+    }
+    else{
+        return b;
+    }
+}
+console.log(num(4,9));
