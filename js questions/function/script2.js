@@ -280,7 +280,13 @@ let user2=[
 ];
 
 // print name of students who score more than 50
-let val=user2.filter(coef=>{
-    coef.marks>50
-}).map(coef=>coef.name);
-console.log(val);
+// let val=user2.filter(coef=>{
+//     coef.marks>50
+// }).map(coef=>coef.name);
+// console.log(val);
+
+let use=user2.map(val=>{
+    return val.marks*2;
+})
+console.log(use);
+
