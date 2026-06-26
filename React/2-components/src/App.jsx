@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './components/card'
 
+
 const user='Himanshi'
 function App() {
   return (
@@ -10,9 +11,9 @@ function App() {
       </div>
 
        <div>
-        {<Card/>}
+        <Card/>
       </div>
-    </div>
+    </div>   
   )
 }
 
