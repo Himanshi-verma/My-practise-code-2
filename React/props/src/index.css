@@ -20,8 +20,7 @@ html,body{
   border-radius: 20px;
   margin: 20px 30px;
   padding: 20px 30px;
-  border: 1px rgb(255, 255, 255);
-  width: 200px;
+  width: 100vh;    
   border-width: 2px;
   border-style: solid;
   border-color: aliceblue;
