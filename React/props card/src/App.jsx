@@ -106,12 +106,18 @@ function App() {
     location: "Austin, USA",
   },
 ];
-
+   console.log(jobs);
   return (
     <div className='parent'>
 
-      
-      <Card/>
+   {jobs.map(function(val){
+
+    return <Card name={val.company} logo={val.logo} position={val.position} deadline={val.deadline} tag1={val.duration} tag2={val.level} pay={val.pay} location={val.location} 
+    />
+   })}
+   
+  
+    
       
        
     </div>
